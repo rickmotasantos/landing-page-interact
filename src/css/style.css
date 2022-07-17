@@ -1,0 +1,136 @@
+.foto-fundo {
+    background: url(../img/notbook.webp) top center no-repeat;
+    height: 100vh;
+}
+
+.marc-agua {
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    flex-wrap: wrap;
+}
+
+.cabecalho .logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 230px;
+    margin-right: 20px;
+}
+
+.cabecalho .logo .digitro {
+    color: #fff;
+    font-family: 'anton';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.cabecalho .logo .interact {
+    color: #fff;
+    font-size: 20px;
+}
+
+.cabecalho .menu ul{
+    display: flex;
+    padding: 10px;
+}
+
+.cabecalho .menu ul li {
+    margin-right: 20px;
+    border: 2px solid #fff;
+    padding: 8px 15px ;
+    border-radius: 20px;
+}
+
+.cabecalho .menu ul li:hover{
+    background-color: rgba(0,0,255, 0.7);
+}
+
+.cabecalho .menu ul li a {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    margin-top: 200px;
+    justify-content: start;
+    width: 100%;
+    height: 60%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin-left: 100px;
+    padding: 0 30px;
+    width: 50%;
+}
+.content .stars {
+    display: flex;
+    margin-left: -150px;
+}
+
+.content .star {
+    padding: 15px 3px;
+}
+.content .star img{
+    height: 40px;
+}
+
+.conteudo .titulo{
+    display: flex;
+    align-items: center; 
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.conteudo .titulo h1{
+    color: #fff;
+}
+
+.conteudo .texto {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.conteudo .texto p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.conteudo .btn {
+    display: flex;
+    align-items: center;
+    margin-left: -170px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: rgb(15, 145, 54);
+    color: #fff;
+    padding: 5px 30px;
+    margin-bottom: 200px;
+}
+
+.conteudo .btn:hover {
+    background-color: rgb(93, 212, 129);
+}
+
+.seta {
+    display: flex;
+    align-items: end;
+    margin-bottom: -50px;
+}
+
+.seta img{
+    height: 40px;
+    cursor: pointer;
+}
